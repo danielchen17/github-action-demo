@@ -23,3 +23,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  build_on_windows:
+      runs-on: windows-latest
+      steps: 
+       - name: run my script
+         run: |
+           echo "hello my script!"
+           Get-Date
+  
